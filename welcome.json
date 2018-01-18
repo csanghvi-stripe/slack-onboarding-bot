@@ -1,18 +1,39 @@
 {
-    "attachments": [{
-        "mrkdwn_in": ["text"],
-        "author_name": "Everything you need to know about Slack at SAP",
-        "author_link": "https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions",
-        "text": ":white_large_square: *Reference Information above to get started* :thinking_face:"
-    }, {
-        "mrkdwn_in": ["text"],
-        "author_name": "learn how to use Slack so you can reference it for quick help",
-        "author_link": "https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files",
-        "text": ":white_large_square: *Learn how to use Slack* :round_pushpin:"
-    }, {
-        "mrkdwn_in": ["text"],
-        "author_name": "Link to all the tutorial video",
-        "author_link": "https://get.slack.help/hc/en-us/articles/203274767-Share-messages-in-Slack",
-        "text": ":white_large_square: *Slack Guide* :mailbox_with_mail:"
-    }]
+    "attachments": [
+        {
+            "fallback": "Required plain-text summary of the attachment.",
+            "color": "#36a64f",
+            "pretext": "Everything you need to know to use Slack at SAP",
+            "title": "Slack at SAP",
+            "title_link": "https://api.slack.com/",
+            "text": ":book: Optional text that appears within the attachment",
+            "mrkdwn_in": [
+                "text",
+                "pretext"
+            ]
+        },
+  {
+            "fallback": "Required plain-text summary of the attachment.",
+            "color": "#36a64f",
+            "pretext": "How to use Slack",
+            "title": "What is Slack & What is Grid",
+            "title_link": "https://slack.com/enterprise",
+            "text": ":rocket: Learn about Slack & Grid",
+            "mrkdwn_in": [
+                "text",
+                "pretext"
+            ]
+  },   {
+            "fallback": "Where to go for Issues",
+            "color": "#36a64f",
+            "pretext": "Where to go for Issues",
+            "title": "Support for Slack",
+            "title_link": "https://api.slack.com/",
+            "text": ":hand: For all your FAQs",
+            "mrkdwn_in": [
+                "text",
+                "pretext"
+            ]
+  }
+    ]
 }
